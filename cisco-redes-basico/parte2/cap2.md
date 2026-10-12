@@ -442,3 +442,129 @@ El cable coaxial se utiliza en redes de televisión por cable y servicios de Int
 - Estructura y aplicaciones del cable coaxial.
 - Funcionamiento y ventajas de la fibra óptica.
 - Diferencias entre cobre, fibra óptica y medios inalámbricos.
+
+
+
+
+
+# CISCO NETWORKING BASICS
+## MÓDULO 5 — CUESTIONARIO DE REFUERZO
+### Protocolos y estándares de comunicación
+
+**Total:** 2 preguntas
+
+**Instrucciones:** Responde primero las preguntas y consulta el solucionario al terminar.
+
+---
+
+## PREGUNTA 1 — Protocolos de red
+
+Las reglas que rigen las comunicaciones de red, incluidos el formato, el tamaño, la temporización y el encapsulamiento, se denominan:
+
+- [ ] A. Señalización
+- [ ] B. Codificación
+- [ ] C. Protocolos
+- [ ] D. Mensajería
+
+---
+
+## PREGUNTA 2 — Estándares de Internet
+
+El IETF (Internet Engineering Task Force) registra y publica los estándares de Internet en documentos conocidos como:
+
+- [ ] A. Estándares de Protocolo de Internet (IPS)
+- [ ] B. Documentos de Estándares IETF (ISD)
+- [ ] C. Estándares de Especificación de Internet (ISS)
+- [ ] D. Petición de Comentarios (RFC)
+
+---
+
+# HOJA DE RESPUESTAS
+
+| Pregunta | Mi respuesta |
+|---|---|
+| 1 | |
+| 2 | |
+
+---
+
+# SOLUCIONARIO EXPLICADO
+## NO REVISAR ANTES DE TERMINAR
+
+### PREGUNTA 1
+**Respuesta correcta: C. Protocolos**
+
+**¿Por qué?**
+
+Los **protocolos de red** son conjuntos de reglas que permiten que los dispositivos se comuniquen correctamente.
+
+Estas reglas establecen aspectos como:
+
+- Formato del mensaje.
+- Tamaño del mensaje.
+- Temporización.
+- Codificación.
+- Encapsulación.
+- Patrones de mensajes.
+
+**¿Por qué no son las otras opciones?**
+
+- **Señalización:** se relaciona con la transmisión y representación de señales.
+- **Codificación:** es una característica relacionada con representar información mediante códigos o señales.
+- **Mensajería:** se relaciona con el intercambio de mensajes, pero no es el término general para las reglas de comunicación.
+
+**Ejemplo:**
+
+Cuando una computadora se comunica con otra, ambas deben utilizar protocolos compatibles para interpretar los mensajes.
+
+**PARA RECORDAR:**
+
+Protocolos = reglas de comunicación.
+
+---
+
+### PREGUNTA 2
+**Respuesta correcta: D. Petición de Comentarios (RFC)**
+
+**¿Por qué?**
+
+La **IETF (Internet Engineering Task Force)** desarrolla y publica especificaciones técnicas relacionadas con Internet mediante documentos conocidos como RFC.
+
+**RFC (Request for Comments)** significa Solicitud de Comentarios o Petición de Comentarios.
+
+Estos documentos permiten registrar especificaciones, protocolos y propuestas técnicas.
+
+**¿Por qué no son las otras opciones?**
+
+- **IPS:** no corresponde al nombre de los documentos solicitados.
+- **ISD:** no corresponde a la denominación utilizada en el material de Cisco.
+- **ISS:** tampoco es el nombre de los documentos RFC.
+
+**IMPORTANTE:**
+
+No todos los documentos RFC son estándares oficiales de Internet; también existen RFC informativos y experimentales.
+
+**PARA RECORDAR:**
+
+- IETF = organización que desarrolla estándares relacionados con Internet.
+- RFC = documentos técnicos donde se publican especificaciones.
+- IEEE = organización que desarrolla estándares como IEEE 802.11.
+- ISO = organización internacional relacionada con el modelo OSI.
+
+---
+
+# RESUMEN PARA EL EXAMEN
+
+| Pista en la pregunta | Respuesta |
+|---|---|
+| Reglas que rigen la comunicación | Protocolos |
+| Formato, tamaño y temporización | Características de protocolos |
+| Documentos publicados por IETF | RFC |
+| Request for Comments | RFC |
+| Estándar de redes inalámbricas | IEEE 802.11 |
+| Modelo de siete capas | OSI |
+
+---
+
+**PUNTAJE FINAL: ____ / 2**
+
