@@ -915,3 +915,666 @@ Pares trenzados = reducción de interferencias.
 
 **PUNTAJE FINAL: ____ / 11**
 
+
+
+
+# CISCO NETWORKING BASICS
+## MÓDULO 7 — CUESTIONARIO DE REFUERZO
+### Tramas Ethernet, direcciones MAC y switches
+
+**Total:** 16 preguntas
+
+**Instrucciones:** Responde todas las preguntas antes de revisar el solucionario. La pregunta 14 requiere tres respuestas.
+
+---
+
+## PREGUNTA 1 — Dirección MAC de destino
+
+Cuando se envía una trama Ethernet a través de una interfaz, la dirección MAC de destino indica:
+
+- [ ] A. La dirección MAC de la tarjeta NIC de un dispositivo, que se encuentra en esta red u otra red, que recibirá la trama de Ethernet.
+- [ ] B. La dirección MAC de la tarjeta NIC que envió la trama Ethernet.
+- [ ] C. La dirección MAC del dispositivo, que se encuentra en esta red, que recibirá la trama de Ethernet.
+- [ ] D. La dirección MAC del enrutador.
+
+---
+
+## PREGUNTA 2 — Inicio de la trama
+
+¿Cuál campo de trama de Ethernet indica el comienzo de una trama de Ethernet?
+
+- [ ] A. FCS.
+- [ ] B. Dirección MAC de destino.
+- [ ] C. Preámbulo y SFD.
+- [ ] D. Tipo/Longitud.
+
+---
+
+## PREGUNTA 3 — Ethernet y modelo OSI
+
+¿En qué capa del modelo OSI se encuentra el protocolo Ethernet?
+
+- [ ] A. Capa 2 — Enlace de Datos.
+- [ ] B. Capa 1 — Física.
+- [ ] C. Capa 3 — Red.
+- [ ] D. Capa 4 — Transporte.
+
+---
+
+## PREGUNTA 4 — Reenvío de tramas
+
+¿Los conmutadores Ethernet toman su decisión de reenvío en función de qué campo de la trama Ethernet?
+
+- [ ] A. Dirección MAC de origen.
+- [ ] B. SFD (Delimitador de Inicio de la Trama).
+- [ ] C. FCS.
+- [ ] D. Dirección MAC de destino.
+- [ ] E. Tipo/Longitud.
+
+---
+
+## PREGUNTA 5 — Aprendizaje MAC
+
+¿Los conmutadores Ethernet agregan entradas a su tabla de direcciones MAC en función de qué campo de la trama Ethernet?
+
+- [ ] A. FCS.
+- [ ] B. Dirección MAC de origen.
+- [ ] C. Dirección MAC de destino.
+- [ ] D. Tipo/Longitud.
+- [ ] E. SFD (Delimitador de Inicio de la Trama).
+
+---
+
+## PREGUNTA 6 — MAC desconocida
+
+Cuando un conmutador recibe una trama de Ethernet y la dirección MAC de destino de esa trama no está en su tabla de direcciones MAC, el conmutador:
+
+- [ ] A. Descarta la trama.
+- [ ] B. Reenvía la trama por todos los puertos excepto el puerto entrante.
+- [ ] C. Agrega la dirección MAC de destino a la tabla.
+- [ ] D. Agrega la dirección MAC de origen a la tabla.
+
+---
+
+## PREGUNTA 7 — Concentradores Ethernet
+
+Los concentradores Ethernet se consideran:
+
+- [ ] A. Un dispositivo inalámbrico.
+- [ ] B. Un dispositivo de seguridad.
+- [ ] C. De última generación.
+- [ ] D. Obsoletos.
+
+---
+
+## PREGUNTA 8 — Dispositivo que utiliza la tabla MAC
+
+¿Qué dispositivo de red tiene la función principal de enviar datos a un destino específico en función de la información que se encuentra en la tabla de direcciones MAC?
+
+- [ ] A. Concentrador.
+- [ ] B. Conmutador.
+- [ ] C. Router.
+- [ ] D. Módem.
+
+---
+
+## PREGUNTA 9 — Información de la tabla MAC
+
+¿Qué información de direccionamiento registra un switch para armar su tabla de direcciones MAC?
+
+- [ ] A. La dirección de capa 3 de destino de sus paquetes salientes.
+- [ ] B. La dirección de capa 2 de destino de sus tramas entrantes.
+- [ ] C. La dirección de capa 2 de destino de sus tramas salientes.
+- [ ] D. La dirección de capa 3 de destino de sus paquetes entrantes.
+
+---
+
+## PREGUNTA 10 — Función de FCS
+
+¿Cuál es el propósito del campo FCS en una trama?
+
+- [ ] A. Para obtener la dirección MAC del nodo de envío.
+- [ ] B. Para verificar la dirección lógica del nodo emisor.
+- [ ] C. Para calcular el encabezado CRC para el campo de datos.
+- [ ] D. Para determinar si ocurrieron errores en la transmisión y recepción.
+
+---
+
+## PREGUNTA 11 — Función de un switch de capa 2
+
+¿Cuál es una función de un switch de capa 2?
+
+- [ ] A. Duplica la señal eléctrica de cada trama a cada puerto.
+- [ ] B. Reenvía datos basados en direccionamiento lógico.
+- [ ] C. Determina qué interfaz se utiliza para reenviar una trama basado en la dirección MAC de destino.
+- [ ] D. Aprende el puerto asignado a un host examinando la dirección MAC de destino.
+
+---
+
+## PREGUNTA 12 — Actualización de tabla MAC
+
+¿Qué información utiliza un switch para mantener actualizada la información de la tabla de direcciones MAC?
+
+- [ ] A. La dirección MAC de destino y el puerto de salida.
+- [ ] B. La dirección MAC de origen y el puerto de entrada.
+- [ ] C. Las direcciones MAC de origen y destino y el puerto de salida.
+- [ ] D. Las direcciones MAC de origen y destino y el puerto de entrada.
+- [ ] E. La dirección MAC de destino y el puerto de entrada.
+
+---
+
+## PREGUNTA 13 — Encapsulación
+
+¿Cuál es el proceso que se utiliza para colocar un mensaje dentro de otro para transferirlo del origen al destino?
+
+- [ ] A. Decodificación.
+- [ ] B. Encapsulación.
+- [ ] C. Control del flujo.
+- [ ] D. Control de acceso.
+- [ ] E. La dirección MAC de origen y el puerto de entrada.
+
+---
+
+## PREGUNTA 14 — Campos Ethernet 802.3
+
+¿Cuáles tres campos se encuentran en una trama de Ethernet 802.3? (Escoge tres opciones).
+
+- [ ] A. Dirección física de destino.
+- [ ] B. Secuencia de verificación de trama (FCS).
+- [ ] C. Dirección lógica de origen.
+- [ ] D. Dirección física de origen.
+- [ ] E. Dirección lógica de destino.
+- [ ] F. Identificador del tipo de medio.
+
+---
+
+## PREGUNTA 15 — Trama destinada a otra MAC
+
+¿Qué hará un host en una red Ethernet si recibe una trama con una dirección MAC de destino de unidifusión que no coincide con su propia dirección MAC?
+
+- [ ] A. Reenviará la trama al siguiente host.
+- [ ] B. Eliminará la trama del medio.
+- [ ] C. Se quitará la trama de enlace de datos para comprobar la dirección IP de destino.
+- [ ] D. Se descartará la trama.
+
+---
+
+## PREGUNTA 16 — Decisiones de reenvío del switch
+
+¿Qué afirmación es correcta acerca de las decisiones de reenvío de tramas del switch Ethernet?
+
+- [ ] A. Las tramas dirigidas a direcciones MAC desconocidas se eliminan.
+- [ ] B. Las decisiones de reenvío de tramas se basan en la dirección MAC y las asignaciones de puertos en la tabla de direcciones MAC.
+- [ ] C. Las tramas de unidifusión siempre se reenvían, independientemente de la dirección de destino MAC.
+- [ ] D. Los switches construyen sus tablas de direcciones MAC en función de la dirección MAC de destino de las tramas entrantes.
+
+---
+
+# HOJA DE RESPUESTAS
+
+| Pregunta | Mi respuesta |
+|---|---|
+| 1 | |
+| 2 | |
+| 3 | |
+| 4 | |
+| 5 | |
+| 6 | |
+| 7 | |
+| 8 | |
+| 9 | |
+| 10 | |
+| 11 | |
+| 12 | |
+| 13 | |
+| 14 | |
+| 15 | |
+| 16 | |
+
+---
+
+# SOLUCIONARIO EXPLICADO
+## NO REVISAR ANTES DE TERMINAR
+
+### PREGUNTA 1
+**Respuesta correcta: C. La dirección MAC del dispositivo que se encuentra en esta red y recibirá la trama.**
+
+**¿Por qué?**
+
+Una trama Ethernet utiliza una dirección MAC de destino para identificar el receptor en el enlace local.
+
+Cuando el destinatario IP está en otra red, la trama normalmente se dirige a la MAC del router que actúa como siguiente salto.
+
+**Ejemplo:**
+
+PC1 → Switch → PC2
+
+Si PC2 pertenece a la misma LAN, PC1 utiliza la MAC de PC2 como destino.
+
+**PARA RECORDAR:**
+
+La MAC de destino identifica al receptor de la trama en el enlace actual, no necesariamente al destinatario IP final.
+
+---
+
+### PREGUNTA 2
+**Respuesta correcta: C. Preámbulo y SFD.**
+
+**¿Por qué?**
+
+El preámbulo ayuda a sincronizar la recepción de la señal.
+
+El SFD (Start Frame Delimiter) indica dónde termina el preámbulo y comienza el contenido de la trama Ethernet.
+
+**Diferencias:**
+
+- Preámbulo: sincronización.
+- SFD: delimitador de inicio.
+- FCS: detección de errores.
+- MAC de destino: receptor de la trama.
+
+**PARA RECORDAR:**
+
+Preámbulo + SFD = preparación e identificación del inicio de trama.
+
+---
+
+### PREGUNTA 3
+**Respuesta correcta: A. Capa 2 — Enlace de Datos.**
+
+**¿Por qué?**
+
+Ethernet proporciona funciones de la capa de enlace de datos del modelo OSI.
+
+Incluye el uso de tramas y direcciones MAC.
+
+**Ejemplo:**
+
+PC → Switch → PC
+
+El switch de capa 2 reenvía tramas Ethernet utilizando direcciones MAC.
+
+**IMPORTANTE:**
+
+Ethernet también define especificaciones para la capa física, pero en esta pregunta Cisco se refiere a su funcionamiento como protocolo de enlace de datos.
+
+---
+
+### PREGUNTA 4
+**Respuesta correcta: D. Dirección MAC de destino.**
+
+**¿Por qué?**
+
+Cuando un switch recibe una trama, consulta la MAC de destino para decidir dónde reenviarla.
+
+**Ejemplo:**
+
+Tabla MAC:
+
+MAC A → Fa0/1
+
+MAC B → Fa0/2
+
+Si una trama está destinada a MAC B, el switch puede reenviarla por Fa0/2.
+
+**PARA RECORDAR:**
+
+MAC de destino = decidir por dónde reenviar.
+
+---
+
+### PREGUNTA 5
+**Respuesta correcta: B. Dirección MAC de origen.**
+
+**¿Por qué?**
+
+El switch aprende las direcciones MAC examinando la MAC de origen de las tramas que recibe.
+
+También identifica el puerto de entrada.
+
+**Ejemplo:**
+
+Una trama entra por Fa0/3.
+
+MAC de origen: AA:BB:CC:DD:EE:01
+
+El switch registra:
+
+AA:BB:CC:DD:EE:01 → Fa0/3
+
+**PARA RECORDAR:**
+
+MAC de origen = aprender.
+
+MAC de destino = reenviar.
+
+---
+
+### PREGUNTA 6
+**Respuesta correcta: B. Reenvía la trama por todos los puertos excepto el puerto entrante.**
+
+**¿Por qué?**
+
+Cuando el switch no conoce la MAC de destino de una trama unicast, realiza una inundación (flooding).
+
+Envía la trama por los demás puertos que corresponden a la misma VLAN, excepto por donde llegó.
+
+**Ejemplo:**
+
+PC1 envía una trama a PC3.
+
+El switch todavía no conoce la ubicación de PC3.
+
+Por ello, reenvía la trama por los demás puertos de esa VLAN para intentar encontrar al destinatario.
+
+**IMPORTANTE:**
+
+El switch también puede aprender la MAC de origen de la trama recibida. Pero la acción que responde a la MAC de destino desconocida es la inundación.
+
+---
+
+### PREGUNTA 7
+**Respuesta correcta: D. Obsoletos.**
+
+**¿Por qué?**
+
+Los hubs o concentradores Ethernet son dispositivos antiguos.
+
+Repiten señales por sus puertos y comparten el medio entre los dispositivos conectados.
+
+Esto puede producir colisiones y disminuir el rendimiento.
+
+Los switches Ethernet reemplazaron ampliamente a los hubs.
+
+**PARA RECORDAR:**
+
+Hub = dispositivo antiguo que repite señales.
+
+Switch = dispositivo que reenvía tramas según direcciones MAC.
+
+---
+
+### PREGUNTA 8
+**Respuesta correcta: B. Conmutador.**
+
+**¿Por qué?**
+
+Conmutador significa switch.
+
+Un switch utiliza la tabla MAC para relacionar direcciones MAC con puertos.
+
+**Diferencias:**
+
+- Hub: repite señales.
+- Switch: reenvía tramas usando MAC.
+- Router: encamina paquetes utilizando direcciones IP.
+- Módem: permite adaptar señales para determinados medios de comunicación.
+
+**PARA RECORDAR:**
+
+Switch = tabla MAC.
+
+Router = tabla de enrutamiento IP.
+
+---
+
+### PREGUNTA 9
+**Ninguna de las alternativas visibles es técnicamente correcta.**
+
+**¿Por qué?**
+
+Un switch Ethernet aprende utilizando:
+
+**Dirección MAC de origen de una trama entrante + puerto por el que llegó.**
+
+Sin embargo, las alternativas de la captura mencionan direcciones de destino, tanto de capa 2 como de capa 3.
+
+Por eso, ninguna describe el mecanismo correcto.
+
+**La alternativa que debería aparecer es:**
+
+"La dirección de capa 2 de origen de las tramas entrantes".
+
+**IMPORTANTE:**
+
+No memorices una opción incorrecta solo porque aparece en el cuestionario. La regla correcta es aprender mediante la MAC de origen y el puerto de entrada.
+
+---
+
+### PREGUNTA 10
+**Respuesta correcta: D. Para determinar si ocurrieron errores en la transmisión y recepción.**
+
+**¿Por qué?**
+
+FCS (Frame Check Sequence) es un campo de la trama Ethernet utilizado para detectar errores.
+
+Emplea un mecanismo basado en CRC (Cyclic Redundancy Check).
+
+**Funcionamiento simplificado:**
+
+1. El emisor calcula un valor de comprobación.
+2. Ese valor se incorpora al campo FCS.
+3. El receptor realiza la verificación.
+4. Si la comprobación falla, la trama se considera corrupta.
+
+**PARA RECORDAR:**
+
+FCS = detección de errores.
+
+No sirve para aprender direcciones MAC.
+
+---
+
+### PREGUNTA 11
+**Respuesta correcta: C. Determina qué interfaz se utiliza para reenviar una trama basado en la dirección MAC de destino.**
+
+**¿Por qué?**
+
+Un switch de capa 2 utiliza la dirección MAC de destino y la información de su tabla MAC para decidir el puerto de reenvío.
+
+**¿Por qué no son las demás?**
+
+- Repetir señales por todos los puertos corresponde al funcionamiento de un hub.
+- Reenviar según direccionamiento lógico IP corresponde al enrutamiento de capa 3.
+- El switch no aprende mediante la MAC de destino, sino mediante la MAC de origen.
+
+**PARA RECORDAR:**
+
+Switch de capa 2 = decisión basada en MAC de destino.
+
+---
+
+### PREGUNTA 12
+**Respuesta correcta: B. La dirección MAC de origen y el puerto de entrada.**
+
+**¿Por qué?**
+
+Cuando llega una trama, el switch examina:
+
+1. Dirección MAC de origen.
+2. Puerto de entrada.
+
+Luego registra o actualiza esta asociación en su tabla MAC.
+
+**Ejemplo:**
+
+MAC de origen: AA:AA:AA:AA:AA:01
+
+Puerto de entrada: Fa0/1
+
+La tabla aprende:
+
+AA:AA:AA:AA:AA:01 → Fa0/1
+
+**IMPORTANTE:**
+
+Esta es una de las reglas más importantes del módulo.
+
+---
+
+### PREGUNTA 13
+**Respuesta correcta: B. Encapsulación.**
+
+**¿Por qué?**
+
+La encapsulación consiste en agregar información de control y colocar datos dentro de una estructura para transmitirlos.
+
+**Ejemplo de Cisco:**
+
+Carta → Sobre → Envío
+
+En redes, el mensaje también se encapsula para poder transportarse.
+
+**PARA RECORDAR:**
+
+Encapsulación = agregar información y organizar los datos para transmitirlos.
+
+Desencapsulación = proceso inverso de recepción.
+
+---
+
+### PREGUNTA 14
+**Respuestas correctas: A, B y D.**
+
+- A. Dirección física de destino.
+- B. Secuencia de verificación de trama (FCS).
+- D. Dirección física de origen.
+
+**¿Por qué?**
+
+Una trama Ethernet utiliza direcciones MAC, que son direcciones de capa 2.
+
+Entre sus campos se encuentran:
+
+- MAC de destino.
+- MAC de origen.
+- FCS.
+
+**¿Por qué no las direcciones lógicas?**
+
+Las direcciones lógicas IP pertenecen a la capa de red del modelo OSI.
+
+**PARA RECORDAR:**
+
+Ethernet = direcciones MAC y tramas.
+
+IP = direcciones lógicas y paquetes.
+
+---
+
+### PREGUNTA 15
+**Respuesta correcta: D. Se descartará la trama.**
+
+**¿Por qué?**
+
+Cuando un host recibe una trama Ethernet unicast cuya dirección MAC de destino no coincide con la suya, normalmente la descarta.
+
+**Ejemplo:**
+
+MAC de PC1: AA:AA:AA:AA:AA:01
+
+MAC de destino de la trama: BB:BB:BB:BB:BB:02
+
+PC1 comprueba que la trama no está dirigida a su interfaz y la descarta.
+
+**IMPORTANTE:**
+
+Esta regla corresponde al funcionamiento normal de recepción Ethernet, sin considerar modos especiales como el modo promiscuo.
+
+---
+
+### PREGUNTA 16
+**Respuesta correcta: B. Las decisiones de reenvío de tramas se basan en la dirección MAC y las asignaciones de puertos en la tabla de direcciones MAC.**
+
+**¿Por qué?**
+
+El switch consulta su tabla MAC para determinar qué puerto corresponde a la dirección MAC de destino.
+
+**Ejemplo:**
+
+MAC A → Fa0/1
+
+MAC B → Fa0/2
+
+Si recibe una trama destinada a MAC B, el switch puede reenviarla por Fa0/2.
+
+**¿Por qué son incorrectas las otras opciones?**
+
+- Las MAC desconocidas normalmente provocan inundación, no eliminación automática.
+- No todas las tramas unicast se reenvían necesariamente.
+- Los switches aprenden usando la MAC de origen, no la MAC de destino.
+
+**PARA RECORDAR:**
+
+La tabla MAC permite al switch decidir por dónde reenviar tramas Ethernet.
+
+---
+
+# TABLA DE REPASO — CAMPOS DE UNA TRAMA ETHERNET
+
+| Campo | Función |
+|---|---|
+| Preámbulo | Sincronizar la recepción. |
+| SFD | Identificar el inicio de la trama. |
+| MAC de destino | Identificar al receptor de la trama. |
+| MAC de origen | Identificar al emisor de la trama. |
+| Tipo/Longitud | Identificar el protocolo o indicar longitud, según el formato. |
+| Datos | Transportar la información. |
+| FCS | Detectar errores de transmisión. |
+
+---
+
+# TABLA DE REPASO — SWITCH ETHERNET
+
+| Situación | Acción del switch |
+|---|---|
+| Recibe una trama | Examina su MAC de origen. |
+| MAC de origen nueva | Aprende la asociación MAC-puerto. |
+| MAC de origen conocida | Actualiza la información correspondiente. |
+| MAC de destino conocida | Reenvía según su tabla MAC. |
+| MAC unicast de destino desconocida | Inunda los demás puertos correspondientes de la VLAN. |
+| Trama con error detectado por FCS | Descarta la trama corrupta. |
+
+---
+
+# RESUMEN FINAL PARA EL EXAMEN
+
+**1. SWITCH**
+
+- Funciona principalmente en capa 2.
+- Utiliza tramas Ethernet.
+- Aprende direcciones MAC de origen.
+- Reenvía utilizando direcciones MAC de destino.
+- Mantiene una tabla MAC.
+
+**2. HUB**
+
+- Funciona en capa 1.
+- Repite señales.
+- Es una tecnología obsoleta.
+
+**3. ETHERNET**
+
+- Utiliza direcciones MAC.
+- Define el formato de las tramas.
+- Incluye el campo FCS para detectar errores.
+
+**4. ENCAPSULACIÓN**
+
+- Agrega información de control.
+- Permite preparar datos para transmitirlos.
+
+**5. REGLA FUNDAMENTAL**
+
+MAC de origen = APRENDER.
+
+MAC de destino = REENVIAR.
+
+MAC desconocida = INUNDACIÓN.
+
+FCS = DETECTAR ERRORES.
+
+---
+
+**PUNTAJE FINAL: ____ / 16**
+
