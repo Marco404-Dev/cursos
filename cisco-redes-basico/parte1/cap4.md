@@ -953,3 +953,187 @@ CASA_WIFI y casa_wifi son identificadores diferentes.
 ---
 
 **PUNTAJE FINAL: ____ / 8**
+
+
+
+
+
+
+
+# CISCO NETWORKING BASICS
+## CUESTIONARIO DE REFUERZO — MÓDULOS 2, 3 Y 4
+
+**Total:** 5 preguntas  
+**Instrucciones:** Responde sin consultar el solucionario. Algunas preguntas tienen varias respuestas correctas.
+
+---
+
+### PREGUNTA 1
+
+¿Cuáles son los tres dispositivos que se consideran intermedios en una red? (Elija tres opciones).
+
+- [ ] A. Switch
+- [ ] B. Estación de trabajo
+- [ ] C. Punto de acceso inalámbrico
+- [ ] D. Router
+- [ ] E. Impresora de red
+- [ ] F. Servidor
+
+### PREGUNTA 2
+
+¿Cuáles son dos tipos de conexiones de Internet de alta velocidad cableadas? (Elija dos opciones).
+
+- [ ] A. DSL
+- [ ] B. Red celular
+- [ ] C. Satelital
+- [ ] D. Cable
+- [ ] E. Internet por acceso telefónico
+
+### PREGUNTA 3
+
+¿Qué dos métodos se utilizan para conectar directamente dispositivos móviles, como tablets y smartphones, a una red de datos? (Elija dos opciones).
+
+- [ ] A. WiMax
+- [ ] B. Wi-Fi
+- [ ] C. Ethernet por cable
+- [ ] D. Comunicaciones de datos móviles
+- [ ] E. Bluetooth
+
+### PREGUNTA 4
+
+¿Qué función es característica del filtrado MAC en redes inalámbricas?
+
+- [ ] A. Permite que solo los usuarios autorizados detecten la red.
+- [ ] B. Cifra los datos que se transmiten en una red inalámbrica.
+- [ ] C. Se configura en la computadora en lugar de en el enrutador.
+- [ ] D. Restringe el acceso de la computadora a una red inalámbrica.
+
+### PREGUNTA 5
+
+¿Qué banda de RF inalámbrica utilizan los dispositivos IEEE 802.11b/g?
+
+- [ ] A. 900 MHz
+- [ ] B. Banda de 60 GHz
+- [ ] C. 2.4 GHz
+- [ ] D. 5 GHz
+
+---
+
+# HOJA DE RESPUESTAS
+
+| Pregunta | Mi respuesta |
+|---|---|
+| 1 | |
+| 2 | |
+| 3 | |
+| 4 | |
+| 5 | |
+
+---
+
+# SOLUCIONARIO — NO REVISAR ANTES DE TERMINAR
+
+### PREGUNTA 1
+**Respuesta: A, C y D.**
+
+- Switch.
+- Punto de acceso inalámbrico.
+- Router.
+
+**Explicación:**
+
+Los dispositivos intermedios conectan equipos y permiten transportar información dentro de una red o entre diferentes redes.
+
+- Switch: conecta dispositivos dentro de una LAN.
+- Router: conecta diferentes redes.
+- Punto de acceso: permite conectar dispositivos inalámbricos a una red.
+
+**IMPORTANTE:**
+- PC, impresora de red y servidor = dispositivos finales.
+- Switch, router y punto de acceso = dispositivos intermedios.
+
+### PREGUNTA 2
+**Respuesta: A y D.**
+
+- DSL.
+- Cable.
+
+**Explicación:**
+
+Son dos tecnologías de acceso cableado a Internet de banda ancha.
+
+- DSL: utiliza líneas telefónicas de cobre.
+- Cable: utiliza infraestructura de televisión por cable, generalmente coaxial.
+
+**IMPORTANTE:**
+
+El acceso telefónico por marcación también utiliza una línea telefónica, pero proporciona un ancho de banda muy bajo.
+
+### PREGUNTA 3
+**Respuesta: B y D.**
+
+- Wi-Fi.
+- Comunicaciones de datos móviles.
+
+**Explicación:**
+
+Son dos métodos comunes que permiten conectar directamente smartphones y tablets a redes de datos.
+
+- Wi-Fi: permite conectarse mediante un punto de acceso inalámbrico.
+- Datos móviles: permite conectarse mediante la red celular del operador.
+
+**IMPORTANTE:**
+
+Bluetooth permite conectar accesorios y también puede utilizarse para compartir Internet mediante anclaje, pero en esta pregunta Cisco busca los dos métodos habituales de acceso directo a redes de datos.
+
+### PREGUNTA 4
+**Respuesta: D. Restringe el acceso de la computadora a una red inalámbrica.**
+
+**Explicación:**
+
+El filtrado MAC permite aplicar reglas de acceso utilizando las direcciones MAC de los dispositivos.
+
+Ejemplo:
+
+Un router puede configurarse para permitir o bloquear determinados dispositivos según sus direcciones MAC.
+
+**IMPORTANTE:**
+
+- Filtrado MAC = control de acceso por dirección MAC.
+- WPA2/WPA3 = mecanismos de seguridad y cifrado Wi-Fi.
+- SSID = identificador de la red inalámbrica.
+
+El filtrado MAC no cifra los datos y tampoco garantiza por sí solo una protección segura, porque las direcciones MAC pueden falsificarse.
+
+### PREGUNTA 5
+**Respuesta: C. 2.4 GHz.**
+
+**Explicación:**
+
+Los estándares IEEE 802.11b y 802.11g utilizan la banda de frecuencia de 2.4 GHz.
+
+**PARA RECORDAR:**
+
+- 802.11b = 2.4 GHz.
+- 802.11g = 2.4 GHz.
+- 802.11n = 2.4 GHz y 5 GHz.
+- 802.11ac = 5 GHz.
+
+---
+
+# CONCEPTOS IMPORTANTES PARA CISCO
+
+1. Dispositivos intermedios: switch, router y punto de acceso.
+2. Dispositivos finales: computadora, servidor e impresora de red.
+3. DSL y cable: conexiones cableadas de banda ancha.
+4. Wi-Fi y datos celulares: métodos comunes de acceso de dispositivos móviles a redes de datos.
+5. Filtrado MAC: restringe o permite acceso según direcciones MAC.
+6. WPA2/WPA3: seguridad de redes inalámbricas.
+7. IEEE 802.11b/g: banda de 2.4 GHz.
+8. IEEE 802.11n: bandas de 2.4 y 5 GHz.
+9. IEEE 802.11ac: banda de 5 GHz.
+
+---
+
+**PUNTAJE FINAL: ____ / 5**
+
