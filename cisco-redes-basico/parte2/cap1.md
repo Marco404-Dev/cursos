@@ -775,3 +775,207 @@ El modelo OSI tiene siete capas y el modelo TCP/IP estudiado tiene cuatro.
 - Las siete capas OSI.
 - Correspondencia entre OSI y TCP/IP.
 - Funciones de las capas Física, Enlace, Red y Transporte.
+
+
+
+
+# CISCO NETWORKING BASICS
+## MÓDULO 5 — CUESTIONARIO DE REFUERZO
+### Protocolos y características de comunicación
+
+**Total:** 3 preguntas
+
+**Instrucciones:** Responde primero las preguntas. Consulta el solucionario únicamente después de terminar.
+
+---
+
+## PREGUNTA 1 — Protocolos de comunicación
+
+Bianka, un viajero polaco en Hanói, Vietnam, se detiene y le pregunta a Nguyệt cómo llegar al Ngoc Son Temple.
+
+Se comunican verbalmente y determinan que ambos hablan inglés. Después de recibir instrucciones en inglés para el templo, Bianka se las repite a Nguyệt. Nguyệt dice: "Sí, eso es correcto".
+
+Seleccione el orden de los protocolos de comunicación utilizados en este escenario.
+
+- [ ] A. Confirmación, método, idioma.
+- [ ] B. Método, confirmación, idioma.
+- [ ] C. Método, idioma, confirmación.
+- [ ] D. Idioma, método, confirmación.
+
+---
+
+## PREGUNTA 2 — Trama Ethernet
+
+Rory está estudiando los campos dentro de una trama de Ethernet para una prueba próxima y advierte que la dirección de control de acceso al medio (MAC) de destino aparece primero antes de la dirección MAC de origen.
+
+¿Cuál de las siguientes características del protocolo investiga Rory?
+
+- [ ] A. Codificación.
+- [ ] B. Sincronización.
+- [ ] C. Patrón del mensaje.
+- [ ] D. Sincronización del mensaje.
+- [ ] E. Encapsulación.
+
+---
+
+## PREGUNTA 3 — Características de Ethernet
+
+A medida que Rory continúa estudiando Ethernet, descubre que una trama suele tener de 64 a 1518 bytes de información que se convierte en una serie de bits antes de enviarse a la red.
+
+¿Qué dos características de protocolo aprendió Rory para Ethernet? (Elija dos opciones).
+
+- [ ] A. Tamaño del mensaje.
+- [ ] B. Codificación.
+- [ ] C. Encapsulación.
+- [ ] D. Sincronización.
+- [ ] E. Patrón del mensaje.
+
+---
+
+# HOJA DE RESPUESTAS
+
+| Pregunta | Mi respuesta |
+|---|---|
+| 1 | |
+| 2 | |
+| 3 | |
+
+---
+
+# SOLUCIONARIO EXPLICADO
+## NO REVISAR ANTES DE TERMINAR
+
+### PREGUNTA 1
+**Respuesta correcta: C. Método, idioma, confirmación.**
+
+**¿Por qué?**
+
+El escenario presenta tres momentos:
+
+1. **Método:** Bianka y Nguyệt se comunican verbalmente.
+2. **Idioma:** comprueban que ambos hablan inglés.
+3. **Confirmación:** Bianka repite las indicaciones y Nguyệt confirma que son correctas.
+
+**Ejemplo en redes:**
+
+Los dispositivos necesitan utilizar reglas comunes para comunicarse y, cuando el protocolo lo requiere, confirmar la recepción de información.
+
+**PARA RECORDAR:**
+
+- Método = cómo nos comunicamos.
+- Idioma = lenguaje común.
+- Confirmación = verificar que el mensaje fue recibido o comprendido correctamente.
+
+---
+
+### PREGUNTA 2
+**Respuesta correcta: E. Encapsulación.**
+
+**¿Por qué?**
+
+Rory está estudiando cómo se organiza una trama Ethernet.
+
+La encapsulación implica agregar información de control a los datos mediante una estructura definida por el protocolo.
+
+En una trama Ethernet, las direcciones MAC aparecen en un orden específico:
+
+1. Dirección MAC de destino.
+2. Dirección MAC de origen.
+3. Otros campos de la trama.
+
+**Ejemplo:**
+
+Una computadora necesita enviar información a otra.
+
+La trama Ethernet contiene las direcciones MAC correspondientes para permitir que se transporte por la red local.
+
+**¿Por qué no es codificación?**
+
+Porque la codificación trata sobre la representación de la información mediante bits o señales.
+
+En esta pregunta, Rory analiza la estructura de los campos de la trama, no cómo se representan las señales.
+
+**PARA RECORDAR:**
+
+- Encapsulación = agregar y organizar información de control.
+- Codificación = representar información mediante bits o señales.
+- Sincronización = coordinar el momento o ritmo de comunicación.
+- Patrón del mensaje = forma en que se intercambian mensajes, por ejemplo, solicitud y respuesta.
+
+**NOTA:** La característica más específica sería "formato del mensaje", porque Rory observa el orden de los campos. Sin embargo, esa opción no aparece entre las alternativas. De las opciones disponibles, encapsulación es la que mejor se relaciona con la estructura de la trama.
+
+---
+
+### PREGUNTA 3
+**Respuestas correctas: A y B.**
+
+- A. Tamaño del mensaje.
+- B. Codificación.
+
+**¿Por qué?**
+
+La pregunta proporciona dos características diferentes.
+
+**Primera característica: tamaño del mensaje.**
+
+El enunciado señala que la trama Ethernet suele tener entre 64 y 1518 bytes.
+
+Esto corresponde al tamaño del mensaje, porque establece la cantidad de información que puede contener una trama según el formato estudiado.
+
+**Segunda característica: codificación.**
+
+El enunciado indica que la información se convierte en una serie de bits antes de enviarse por la red.
+
+Esto se relaciona con la codificación, porque los datos deben representarse de una manera adecuada para su transmisión.
+
+**Ejemplo:**
+
+Una computadora necesita transmitir una trama Ethernet.
+
+1. La trama debe respetar un tamaño permitido.
+2. La información se representa mediante bits.
+3. Los bits se transmiten utilizando las señales correspondientes al medio.
+
+**¿Por qué no es encapsulación?**
+
+Porque el enunciado no se centra en agregar encabezados u otros campos de control, sino en el tamaño de la trama y la representación de la información.
+
+**PARA RECORDAR:**
+
+- 64 a 1518 bytes → Tamaño del mensaje.
+- Convertir información en bits → Codificación.
+- Agregar encabezados → Encapsulación.
+- Coordinar velocidades y tiempos → Sincronización.
+- Solicitud y respuesta → Patrón del mensaje.
+
+---
+
+# REPASO GENERAL PARA CISCO
+
+| Pista en la pregunta | Concepto |
+|---|---|
+| Cómo se comunican las personas | Método |
+| Idioma compartido | Lenguaje común |
+| Verificar si el mensaje fue recibido | Confirmación |
+| Tamaño en bytes | Tamaño del mensaje |
+| Convertir información en bits o señales | Codificación |
+| Agregar encabezados y campos de control | Encapsulación |
+| Velocidad o momento de transmisión | Sincronización |
+| Solicitud y respuesta | Patrón del mensaje |
+
+---
+
+# TRUCO PARA IDENTIFICAR RESPUESTAS
+
+Cuando Cisco presente una pregunta sobre características de protocolos, identifica primero qué información está describiendo:
+
+1. ¿Habla de cantidad de bytes? → Tamaño.
+2. ¿Habla de bits o señales? → Codificación.
+3. ¿Habla de encabezados o direcciones agregadas? → Encapsulación.
+4. ¿Habla del momento o velocidad? → Sincronización.
+5. ¿Habla de solicitudes y respuestas? → Patrón del mensaje.
+
+---
+
+**PUNTAJE FINAL: ____ / 3**
+
