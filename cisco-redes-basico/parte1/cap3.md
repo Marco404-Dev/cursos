@@ -696,3 +696,177 @@ El emparejamiento Bluetooth permite establecer una relación entre dispositivos 
 - Emparejamiento Bluetooth.
 - Función del PIN y del modo detectable.
 - Anclaje de red mediante Bluetooth, Wi-Fi o USB.
+
+
+
+
+
+# CISCO NETWORKING BASICS
+## MÓDULO 3 — CUESTIONARIO DE REFUERZO
+### Redes inalámbricas y móviles
+
+**Total:** 7 preguntas  
+**Temas:** NFC, Bluetooth, Wi-Fi, anclaje de red y emparejamiento.
+
+---
+
+### PREGUNTA 1
+
+¿Qué término se usa para describir la conexión de un dispositivo móvil a otro dispositivo móvil o computadora para compartir una conexión de red?
+
+- [ ] A. Emparejamiento
+- [ ] B. Sincronización
+- [ ] C. Unión
+- [ ] D. Anclaje a red
+
+### PREGUNTA 2
+
+¿Qué tecnología permite que un dispositivo móvil establezca una comunicación inalámbrica con otro dispositivo móvil al tocarlos?
+
+- [ ] A. NFC
+- [ ] B. Bluetooth
+- [ ] C. 4G
+- [ ] D. GPS
+
+### PREGUNTA 3
+
+¿Qué tecnología permite que un dispositivo móvil comparta una conexión a Internet con otros dispositivos a través del anclaje a red?
+
+- [ ] A. Bluetooth
+- [ ] B. Wi-Fi
+- [ ] C. GPS
+- [ ] D. Comunicación de campo cercano
+
+### PREGUNTA 4
+
+¿Qué tecnología inalámbrica utiliza un proceso de emparejamiento de dispositivos para comunicarse y funciona en distancias cortas de hasta 100 metros?
+
+- [ ] A. Wi-Fi
+- [ ] B. Bluetooth
+- [ ] C. GPS
+- [ ] D. Red inalámbrica de área amplia
+
+### PREGUNTA 5
+
+¿Qué tecnología permite que un teléfono móvil se use como dispositivo manos libres?
+
+- [ ] A. Bluetooth
+- [ ] B. NFC
+- [ ] C. 4G
+- [ ] D. Wi-Fi
+
+### PREGUNTA 6
+
+¿Qué tecnología permite que un dispositivo móvil comparta una conexión a Internet con otros dispositivos a través del anclaje a red?
+
+- [ ] A. Bluetooth
+- [ ] B. Wi-Fi
+- [ ] C. GPS
+- [ ] D. Comunicación de campo cercano
+
+### PREGUNTA 7
+
+¿Qué tecnología inalámbrica permite que un cliente se conecte a un sistema de pago con un teléfono inteligente?
+
+- [ ] A. Bluetooth
+- [ ] B. Wi-Fi
+- [ ] C. NFC
+- [ ] D. GPS
+
+---
+
+# HOJA DE RESPUESTAS
+
+| Pregunta | Mi respuesta |
+|---|---|
+| 1 | |
+| 2 | |
+| 3 | |
+| 4 | |
+| 5 | |
+| 6 | |
+| 7 | |
+
+---
+
+# SOLUCIONARIO EXPLICADO
+
+### Pregunta 1 — D. Anclaje a red
+
+El anclaje a red (tethering) permite compartir la conexión a Internet de un dispositivo móvil con otro dispositivo.
+
+Ejemplo: compartir los datos móviles de tu celular con una laptop.
+
+### Pregunta 2 — A. NFC
+
+NFC permite establecer comunicaciones inalámbricas a muy corta distancia, generalmente unos centímetros.
+
+Ejemplo: acercar un teléfono a otro dispositivo compatible para intercambiar información.
+
+### Pregunta 3 — A. Bluetooth
+
+Según la pregunta de Cisco, la respuesta esperada es Bluetooth.
+
+Bluetooth permite compartir una conexión mediante anclaje de red.
+
+**Importante:** técnicamente, Wi-Fi también permite compartir Internet mediante un punto de acceso móvil. Por eso la pregunta es ambigua si no especifica el método de anclaje.
+
+### Pregunta 4 — B. Bluetooth
+
+Bluetooth permite comunicar dispositivos cercanos mediante un proceso de emparejamiento.
+
+Ejemplo: conectar auriculares inalámbricos a un teléfono.
+
+El alcance depende de la clase de potencia, el dispositivo y las condiciones del entorno.
+
+### Pregunta 5 — A. Bluetooth
+
+Bluetooth permite conectar auriculares, micrófonos y sistemas manos libres.
+
+Ejemplo: contestar una llamada mediante los altavoces y el micrófono de un automóvil compatible.
+
+### Pregunta 6 — A. Bluetooth
+
+Es la misma pregunta que la número 3.
+
+Cisco espera Bluetooth como tecnología de anclaje, aunque compartir Internet mediante Wi-Fi también es técnicamente posible.
+
+### Pregunta 7 — C. NFC
+
+NFC permite intercambiar información entre dispositivos situados a pocos centímetros.
+
+Ejemplo: pagar acercando un celular compatible a un terminal de pago.
+
+---
+
+# CONCEPTOS QUE DEBES RECORDAR
+
+- **Anclaje de red (Tethering):** compartir una conexión a Internet.
+- **Emparejamiento (Pairing):** establecer una relación entre dispositivos Bluetooth.
+- **Bluetooth:** conectar auriculares, relojes, teclados y otros accesorios.
+- **NFC:** intercambio de datos a muy corta distancia y pagos sin contacto.
+- **Wi-Fi:** conexión inalámbrica a una red local.
+- **GPS:** determinar la ubicación mediante satélites.
+- **4G/5G:** conectividad mediante redes celulares.
+
+## DIFERENCIAS IMPORTANTES
+
+**Emparejamiento ≠ Anclaje de red**
+
+- Emparejamiento: vincular dispositivos compatibles.
+- Anclaje: compartir una conexión a Internet.
+
+**Bluetooth ≠ NFC**
+
+- Bluetooth: conexión de accesorios y comunicación de corto alcance.
+- NFC: comunicación por proximidad, generalmente de pocos centímetros.
+
+**PARA EL EXAMEN:**
+
+- Compartir Internet → Anclaje de red.
+- Auriculares y manos libres → Bluetooth.
+- Emparejamiento → Bluetooth.
+- Pagos sin contacto → NFC.
+- Ubicación satelital → GPS.
+- Red doméstica inalámbrica → Wi-Fi.
+
