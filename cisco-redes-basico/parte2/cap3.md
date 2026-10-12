@@ -494,3 +494,251 @@ El hub repite señales, mientras que el switch utiliza direcciones MAC para deci
 - Colisiones Ethernet.
 - Diferencia entre half-duplex y full-duplex.
 - Función de la capa de acceso.
+
+
+
+
+# CISCO NETWORKING BASICS
+## MÓDULO 5 — CUESTIONARIO DE REFUERZO
+### Protocolos TCP/IP y modelo OSI
+
+**Total:** 4 preguntas
+
+**Instrucciones:** Responde las preguntas antes de revisar el solucionario. La pregunta 3 tiene dos respuestas correctas.
+
+---
+
+## PREGUNTA 1 — Entrega confiable
+
+¿Cuál protocolo es responsable de garantizar la entrega fiable de la información?
+
+- [ ] A. IP
+- [ ] B. HTTP
+- [ ] C. Ethernet
+- [ ] D. TCP
+
+---
+
+## PREGUNTA 2 — Enrutamiento
+
+¿Qué protocolo utilizan los enrutadores para reenviar mensajes?
+
+- [ ] A. IP
+- [ ] B. TCP
+- [ ] C. Ethernet
+- [ ] D. HTTP
+
+---
+
+## PREGUNTA 3 — Comparación OSI y TCP/IP
+
+¿Cuáles dos capas del modelo OSI se asignan directamente como la única capa de acceso a la red en el modelo TCP/IP? (Elija dos opciones).
+
+- [ ] A. Enlace de datos
+- [ ] B. Red
+- [ ] C. Presentación
+- [ ] D. Transporte
+- [ ] E. Sesión
+- [ ] F. Física
+- [ ] G. Aplicación
+
+---
+
+## PREGUNTA 4 — Direccionamiento IP
+
+¿En qué capa del modelo OSI ocurre el direccionamiento IP?
+
+- [ ] A. Sesión
+- [ ] B. Transporte
+- [ ] C. Física
+- [ ] D. Enlace de datos
+- [ ] E. Aplicación
+- [ ] F. Red
+- [ ] G. Presentación
+
+---
+
+# HOJA DE RESPUESTAS
+
+| Pregunta | Mi respuesta |
+|---|---|
+| 1 | |
+| 2 | |
+| 3 | |
+| 4 | |
+
+---
+
+# SOLUCIONARIO EXPLICADO
+## NO REVISAR ANTES DE TERMINAR
+
+### PREGUNTA 1
+**Respuesta correcta: D. TCP**
+
+**¿Por qué?**
+
+TCP (Transmission Control Protocol) es un protocolo de la capa de transporte que proporciona mecanismos de entrega confiable.
+
+Entre sus funciones están:
+
+- Confirmar la recepción de datos.
+- Retransmitir información cuando se detectan pérdidas.
+- Ordenar los segmentos recibidos.
+- Controlar el flujo de datos.
+
+**Ejemplo:**
+
+Una computadora descarga un archivo desde un servidor utilizando una conexión TCP.
+
+Si algunos segmentos se pierden, TCP puede retransmitirlos para que la aplicación reciba correctamente la información.
+
+**¿Por qué no son las otras opciones?**
+
+- IP: se encarga del direccionamiento y encaminamiento de paquetes, pero no garantiza su entrega.
+- HTTP: se utiliza para intercambiar información web.
+- Ethernet: permite transportar tramas dentro de una red Ethernet.
+
+**PARA RECORDAR:**
+
+TCP = transporte confiable.
+
+IP = direccionamiento y enrutamiento.
+
+---
+
+### PREGUNTA 2
+**Respuesta correcta: A. IP**
+
+**¿Por qué?**
+
+IP (Internet Protocol) permite identificar las direcciones de origen y destino de los paquetes.
+
+Los routers utilizan la dirección IP de destino y su información de enrutamiento para decidir hacia dónde reenviar cada paquete.
+
+**Ejemplo:**
+
+PC → Router 1 → Router 2 → Servidor
+
+Cada router utiliza información IP para encaminar el paquete hacia la red de destino.
+
+**¿Por qué no son las otras opciones?**
+
+- TCP: proporciona servicios de transporte entre procesos.
+- Ethernet: se utiliza para transportar tramas por enlaces Ethernet.
+- HTTP: permite la comunicación entre clientes y servidores web.
+
+**PARA RECORDAR:**
+
+Router + dirección IP de destino = encaminamiento de paquetes.
+
+---
+
+### PREGUNTA 3
+**Respuestas correctas: A y F.**
+
+- A. Enlace de datos.
+- F. Física.
+
+**¿Por qué?**
+
+El modelo TCP/IP tiene cuatro capas en el esquema estudiado en Cisco:
+
+1. Aplicación.
+2. Transporte.
+3. Internet.
+4. Acceso a la red.
+
+La capa de **Acceso a la red** del modelo TCP/IP reúne las funciones de dos capas del modelo OSI:
+
+- Capa 2: Enlace de datos.
+- Capa 1: Física.
+
+**¿Qué hace cada una?**
+
+**Capa 2 — Enlace de datos**
+
+Se encarga del intercambio de tramas mediante el enlace.
+
+Ejemplo: Ethernet y direcciones MAC.
+
+**Capa 1 — Física**
+
+Se encarga de las características físicas para transmitir bits.
+
+Ejemplo: señales eléctricas, ópticas o inalámbricas.
+
+**PARA RECORDAR:**
+
+Acceso a la red en TCP/IP = Enlace de datos + Física en OSI.
+
+---
+
+### PREGUNTA 4
+**Respuesta correcta: F. Red**
+
+**¿Por qué?**
+
+El direccionamiento IP corresponde a la **capa 3 del modelo OSI: Red**.
+
+Esta capa permite direccionar y encaminar paquetes entre diferentes redes.
+
+**Ejemplo:**
+
+Una computadora con dirección IP 192.168.1.10 necesita comunicarse con un servidor que tiene la dirección IP 192.168.20.10.
+
+Los routers utilizan las direcciones IP para transportar los paquetes entre las redes correspondientes.
+
+**¿Por qué no es enlace de datos?**
+
+Porque la capa de enlace de datos utiliza direcciones MAC para intercambiar tramas a través del enlace.
+
+En cambio, la capa de red utiliza direcciones IP para identificar redes y destinos.
+
+**PARA RECORDAR:**
+
+- Dirección IP → Capa 3, Red.
+- Dirección MAC → Capa 2, Enlace de datos.
+- Bits y señales → Capa 1, Física.
+
+---
+
+# TABLA DE REPASO — PROTOCOLOS
+
+| Protocolo | Función principal |
+|---|---|
+| HTTP | Comunicación web |
+| TCP | Transporte confiable |
+| IP | Direccionamiento y enrutamiento |
+| Ethernet | Comunicación mediante tramas en redes Ethernet |
+
+---
+
+# TABLA DE REPASO — MODELOS OSI Y TCP/IP
+
+| Modelo OSI | Modelo TCP/IP |
+|---|---|
+| 7. Aplicación | Aplicación |
+| 6. Presentación | Aplicación |
+| 5. Sesión | Aplicación |
+| 4. Transporte | Transporte |
+| 3. Red | Internet |
+| 2. Enlace de datos | Acceso a la red |
+| 1. Física | Acceso a la red |
+
+---
+
+# TRUCOS PARA EL EXAMEN CISCO
+
+**Si la pregunta menciona:**
+
+- Entrega confiable → TCP.
+- Reenvío de paquetes entre redes → IP.
+- Direccionamiento IP → Capa 3.
+- Direcciones MAC → Capa 2.
+- Transmisión de bits → Capa 1.
+- Acceso a la red TCP/IP → Capas 1 y 2 de OSI.
+- Navegación web → HTTP.
+
+---
+
+**PUNTAJE FINAL: ____ / 4**
