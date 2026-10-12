@@ -451,3 +451,467 @@ En ese otro caso las respuestas serían:
 ---
 
 **PUNTAJE FINAL: ____ / 10**
+
+
+
+
+# CISCO NETWORKING BASICS
+## MÓDULO 6 — CUESTIONARIO DE REFUERZO
+### Medios de red y tipos de cableado
+
+**Total:** 11 preguntas
+
+**Instrucciones:** Selecciona las alternativas correctas. Algunas preguntas requieren dos o tres respuestas.
+
+---
+
+## PREGUNTA 1 — Conexión entre edificios
+
+Un técnico en redes extiende la red desde el edificio principal de oficinas a varios cientos de metros hasta una nueva estación de seguridad.
+
+La estación necesita una conexión de alta velocidad para admitir la videovigilancia del edificio principal.
+
+¿Qué tipo de cable es el más adecuado?
+
+- [ ] A. Coaxial
+- [ ] B. Fibra óptica
+- [ ] C. Par trenzado sin blindaje
+- [ ] D. Par trenzado blindado
+
+---
+
+## PREGUNTA 2 — Medios de red
+
+¿Cuáles son dos medios comunes que se utilizan en las redes? (Elija dos opciones).
+
+- [ ] A. Cobre
+- [ ] B. Nailon
+- [ ] C. Madera
+- [ ] D. Agua
+- [ ] E. Fibra
+
+---
+
+## PREGUNTA 3 — Cableado de oficina
+
+¿Qué tipo de cable de red se utiliza comúnmente para conectar computadoras de oficina a la red local?
+
+- [ ] A. Cable coaxial
+- [ ] B. Cable de fibra óptica de vidrio
+- [ ] C. Cable de fibra óptica de plástico
+- [ ] D. Cable de par trenzado
+
+---
+
+## PREGUNTA 4 — Selección de medios
+
+¿Cuáles son los tres factores que se deben considerar al elegir los medios de red apropiados? (Elija tres opciones).
+
+- [ ] A. La cantidad de datos y la tasa de transferencia de datos deseada
+- [ ] B. Los sistemas operativos utilizados en los dispositivos de red presentes en la red
+- [ ] C. El entorno en el que se instalan los medios
+- [ ] D. La velocidad de la CPU y la cantidad de memoria en los servidores
+- [ ] E. El requisito de seguridad de datos y tolerancia a fallas
+- [ ] F. La distancia entre los hosts que conectarán los medios
+
+---
+
+## PREGUNTA 5 — Identificación visual de cableado
+
+En la imagen de Cisco se observan cables con conectores metálicos circulares y una fibra delgada que sobresale por el centro.
+
+¿Qué tipo de cableado se muestra?
+
+- [ ] A. Fibra
+- [ ] B. UTP
+- [ ] C. Coaxial
+- [ ] D. STP
+
+---
+
+## PREGUNTA 6 — Ventajas de la fibra óptica
+
+¿Qué hace que la fibra sea preferible al cableado de cobre para la interconexión de edificios? (Elija tres opciones).
+
+- [ ] A. Mayores distancias por cable
+- [ ] B. Susceptibilidad limitada a EMI/RFI
+- [ ] C. Conexiones duraderas
+- [ ] D. Fácil de terminar
+- [ ] E. Mayor potencial de ancho de banda
+- [ ] F. Menor costo de instalación
+
+---
+
+## PREGUNTA 7 — Impulsos eléctricos
+
+¿Qué tipo de medios de red transporta datos codificados en impulsos eléctricos?
+
+- [ ] A. Medios inalámbricos
+- [ ] B. Cable de cobre
+- [ ] C. Comunicaciones de datos móviles
+- [ ] D. Cable de fibra óptica
+
+---
+
+## PREGUNTA 8 — Tipos de medios eléctricos
+
+¿Qué dos tipos de medios de red transportan datos codificados en impulsos eléctricos? (Elija dos opciones).
+
+- [ ] A. Cable de fibra óptica de vidrio
+- [ ] B. Cable de fibra óptica de plástico
+- [ ] C. Cable coaxial
+- [ ] D. Cable de par trenzado
+- [ ] E. Medios inalámbricos
+
+---
+
+## PREGUNTA 9 — Impulsos de luz
+
+¿Qué tipo de medios de red transporta datos codificados en impulsos de luz?
+
+- [ ] A. Cable de par trenzado
+- [ ] B. Cable de fibra óptica
+- [ ] C. Medios inalámbricos
+- [ ] D. Cable coaxial
+
+---
+
+## PREGUNTA 10 — Actualización de una LAN
+
+Un administrador de red en una oficina pequeña está actualizando la red local dentro del edificio.
+
+Se necesitan nuevos cables de red para conectar computadoras de oficina y dispositivos de red.
+
+¿Qué medio de red debe utilizar el administrador?
+
+- [ ] A. Cable de par trenzado
+- [ ] B. Cable de fibra óptica
+- [ ] C. Solución inalámbrica
+- [ ] D. Cable coaxial
+
+---
+
+## PREGUNTA 11 — Pares trenzados
+
+¿Cuál es el propósito de utilizar pares de cables trenzados en un cable Ethernet?
+
+- [ ] A. Para proporcionar mayor ancho de banda
+- [ ] B. Para garantizar que la transmisión de señales eléctricas se extienda a una distancia mayor
+- [ ] C. Para identificar rutas de flujo de datos
+- [ ] D. Para reducir la interferencia
+
+---
+
+# HOJA DE RESPUESTAS
+
+| Pregunta | Mi respuesta |
+|---|---|
+| 1 | |
+| 2 | |
+| 3 | |
+| 4 | |
+| 5 | |
+| 6 | |
+| 7 | |
+| 8 | |
+| 9 | |
+| 10 | |
+| 11 | |
+
+---
+
+# SOLUCIONARIO EXPLICADO
+## NO REVISAR ANTES DE TERMINAR
+
+### PREGUNTA 1
+**Respuesta correcta: B. Fibra óptica**
+
+**¿Por qué?**
+
+La estación de seguridad se encuentra a varios cientos de metros y necesita transmitir video a alta velocidad.
+
+La fibra óptica es apropiada porque:
+
+- Permite conexiones de grandes distancias.
+- Tiene un alto potencial de ancho de banda.
+- No sufre interferencias electromagnéticas en la señal óptica.
+
+**Ejemplo:**
+
+Edificio principal → Fibra óptica → Estación de seguridad
+
+**PARA RECORDAR:**
+
+Largas distancias + alta velocidad = fibra óptica.
+
+---
+
+### PREGUNTA 2
+**Respuestas correctas: A y E.**
+
+- A. Cobre.
+- E. Fibra.
+
+**¿Por qué?**
+
+El cobre y la fibra óptica son dos medios físicos utilizados para transmitir datos.
+
+**Cobre:**
+Transmite información mediante impulsos eléctricos.
+
+**Fibra óptica:**
+Transmite información mediante pulsos de luz.
+
+El nailon, la madera y el agua no corresponden a los medios de transmisión comunes presentados en este módulo de Cisco.
+
+---
+
+### PREGUNTA 3
+**Respuesta correcta: D. Cable de par trenzado**
+
+**¿Por qué?**
+
+El cable de par trenzado es el tipo más común para conectar computadoras a switches dentro de una LAN Ethernet.
+
+**Ejemplo:**
+
+PC → Cable de par trenzado → Switch
+
+**PARA RECORDAR:**
+
+Computadoras de oficina + LAN Ethernet = par trenzado.
+
+---
+
+### PREGUNTA 4
+**Respuestas correctas: A, C y F.**
+
+- A. Cantidad de datos y velocidad requerida.
+- C. Entorno de instalación.
+- F. Distancia entre los hosts.
+
+**¿Por qué?**
+
+Cisco presenta cuatro criterios principales para seleccionar medios de red:
+
+1. Distancia máxima.
+2. Entorno de instalación.
+3. Cantidad de datos y velocidad requerida.
+4. Costo de instalación.
+
+En esta pregunta aparecen tres de ellos.
+
+**¿Por qué no las demás?**
+
+El sistema operativo y las características de CPU o RAM de los servidores no determinan directamente qué medio físico debe instalarse.
+
+La seguridad y la tolerancia a fallas pueden influir en el diseño de una red, pero no son una de las tres respuestas que solicita esta pregunta según los criterios presentados.
+
+---
+
+### PREGUNTA 5
+**Respuesta correcta: A. Fibra**
+
+**¿Por qué?**
+
+La imagen muestra conectores de fibra óptica de tipo ST, caracterizados por su cuerpo metálico circular y mecanismo de acoplamiento.
+
+Se distingue una férula que contiene la fibra óptica.
+
+**PARA RECORDAR:**
+
+- Fibra óptica = transporta pulsos de luz.
+- UTP = pares de cobre sin blindaje.
+- STP = pares de cobre con blindaje.
+- Coaxial = conductor central rodeado de aislamiento y blindaje.
+
+---
+
+### PREGUNTA 6
+**Respuestas correctas: A, B y E.**
+
+- A. Mayores distancias por cable.
+- B. Susceptibilidad limitada a EMI/RFI.
+- E. Mayor potencial de ancho de banda.
+
+**¿Por qué?**
+
+La fibra óptica ofrece ventajas importantes para conectar edificios.
+
+**1. Mayor distancia**
+
+Puede transportar datos a mayores distancias que muchas implementaciones de Ethernet sobre cobre.
+
+**2. Resistencia a interferencias**
+
+La fibra utiliza luz, por lo que las interferencias electromagnéticas y de radiofrecuencia no afectan directamente la señal óptica.
+
+**3. Gran ancho de banda**
+
+Permite transportar cantidades elevadas de información.
+
+**¿Por qué no las demás?**
+
+- Conexiones duraderas: no es la ventaja diferenciadora principal.
+- Fácil de terminar: normalmente requiere herramientas y procedimientos especializados.
+- Menor costo: la instalación puede resultar más costosa según el entorno.
+
+**PARA RECORDAR:**
+
+Fibra = distancia + resistencia a interferencias + ancho de banda.
+
+---
+
+### PREGUNTA 7
+**Respuesta correcta: B. Cable de cobre**
+
+**¿Por qué?**
+
+Los medios de cobre transportan datos mediante señales eléctricas.
+
+**Ejemplo:**
+
+PC → Cable Ethernet de cobre → Switch
+
+**PARA RECORDAR:**
+
+- Cobre = electricidad.
+- Fibra = luz.
+- Inalámbrico = ondas electromagnéticas.
+
+---
+
+### PREGUNTA 8
+**Respuestas correctas: C y D.**
+
+- C. Cable coaxial.
+- D. Cable de par trenzado.
+
+**¿Por qué?**
+
+Ambos utilizan conductores metálicos y transmiten información mediante señales eléctricas.
+
+**Cable coaxial:**
+Utilizado frecuentemente en televisión por cable y servicios de Internet por cable.
+
+**Cable de par trenzado:**
+Utilizado frecuentemente en LAN Ethernet.
+
+La fibra óptica transporta pulsos de luz.
+
+Los medios inalámbricos transportan información mediante ondas electromagnéticas propagadas por el aire.
+
+---
+
+### PREGUNTA 9
+**Respuesta correcta: B. Cable de fibra óptica**
+
+**¿Por qué?**
+
+La fibra óptica utiliza pulsos luminosos para transportar datos.
+
+Las señales viajan a través de fibras de vidrio o plástico.
+
+**Ejemplo:**
+
+Router → Enlace de fibra óptica → Switch remoto
+
+**PARA RECORDAR:**
+
+Pulsos de luz = fibra óptica.
+
+---
+
+### PREGUNTA 10
+**Respuesta correcta: A. Cable de par trenzado**
+
+**¿Por qué?**
+
+La pregunta describe una oficina pequeña que necesita conectar computadoras y equipos de red dentro de una LAN.
+
+El cable de par trenzado es la opción habitual para estas conexiones.
+
+**Ventajas:**
+
+- Uso extendido en Ethernet.
+- Instalación relativamente sencilla.
+- Costo generalmente accesible.
+- Adecuado para conexiones locales compatibles con sus límites de distancia.
+
+**Ejemplo:**
+
+Computadora → Cable UTP → Switch
+
+---
+
+### PREGUNTA 11
+**Respuesta correcta: D. Para reducir la interferencia**
+
+**¿Por qué?**
+
+Los pares de conductores se trenzan para ayudar a reducir interferencias electromagnéticas y diafonía.
+
+La diafonía ocurre cuando las señales de un par pueden interferir con las señales de otro.
+
+El trenzado ayuda a mejorar la calidad de la transmisión eléctrica.
+
+**IMPORTANTE:**
+
+El propósito principal del trenzado no es identificar rutas, sino reducir interferencias.
+
+**PARA RECORDAR:**
+
+Pares trenzados = reducción de interferencias.
+
+---
+
+# TABLA FINAL PARA EL EXAMEN CISCO
+
+| Pista de la pregunta | Respuesta |
+|---|---|
+| Largas distancias entre edificios | Fibra óptica |
+| Alta capacidad y resistencia a EMI | Fibra óptica |
+| Computadoras conectadas a una LAN | Par trenzado |
+| Televisión por cable | Coaxial |
+| Impulsos eléctricos | Cobre |
+| Pulsos de luz | Fibra óptica |
+| Ondas de radio | Inalámbrico |
+| Reducir interferencia en cobre | Pares trenzados |
+| Conectores metálicos ST con férula | Fibra óptica |
+
+---
+
+# RESUMEN DE LOS CONCEPTOS IMPORTANTES
+
+**1. CABLE DE PAR TRENZADO**
+
+- Transmite señales eléctricas.
+- Es común en redes LAN Ethernet.
+- Utiliza conductores trenzados.
+- El trenzado ayuda a reducir interferencias.
+
+**2. CABLE COAXIAL**
+
+- Transmite señales eléctricas.
+- Posee un conductor central.
+- Utiliza aislamiento y blindaje metálico.
+- Se emplea en sistemas de televisión y cable módem.
+
+**3. FIBRA ÓPTICA**
+
+- Transmite pulsos de luz.
+- Permite conexiones de grandes distancias.
+- Ofrece alto potencial de ancho de banda.
+- No es afectada directamente por interferencias electromagnéticas.
+
+**4. CRITERIOS PARA ELEGIR MEDIOS**
+
+- Distancia.
+- Entorno.
+- Cantidad de datos y velocidad.
+- Costo.
+
+---
+
+**PUNTAJE FINAL: ____ / 11**
+
