@@ -698,3 +698,258 @@ En la configuración predeterminada habitual, las conexiones LAN cableadas e ina
 - Difusión del SSID y seguridad de la WLAN.
 - Configuración automática mediante DHCP.
 - Redes de invitados y protección de la red doméstica.
+
+
+
+
+
+# CISCO NETWORKING BASICS
+## MÓDULO 4 — CUESTIONARIO DE REFUERZO
+### Crear una Red Doméstica
+
+**Total:** 8 preguntas  
+**Temas:** Puertos LAN/WAN, Bluetooth, redes de invitados, Wi-Fi, cableado Ethernet y SSID.
+
+---
+
+### PREGUNTA 1
+
+¿Qué tipo de dispositivo se conecta comúnmente a los puertos del switch Ethernet en un enrutador inalámbrico doméstico?
+
+- [ ] A. Cable módem
+- [ ] B. Módem DSL
+- [ ] C. Antena inalámbrica
+- [ ] D. Dispositivo LAN
+
+### PREGUNTA 2
+
+¿Qué tipo de tecnología de red se usa para la comunicación de baja velocidad entre dispositivos periféricos?
+
+- [ ] A. Canales
+- [ ] B. 802.11
+- [ ] C. Ethernet
+- [ ] D. Bluetooth
+
+### PREGUNTA 3
+
+¿Qué se puede usar para permitir que los dispositivos móviles de los visitantes se conecten a una red inalámbrica y para restringir el acceso de esos dispositivos solo a Internet?
+
+- [ ] A. Encriptación
+- [ ] B. Filtrado de direcciones MAC
+- [ ] C. Autenticación
+- [ ] D. SSID de invitados
+
+### PREGUNTA 4
+
+¿Qué propósito tendría un usuario doméstico para implementar Wi-Fi?
+
+- [ ] A. Crear una red inalámbrica que pueda ser utilizada por otros dispositivos.
+- [ ] B. Conectar auriculares inalámbricos a un dispositivo móvil.
+- [ ] C. Conectar un teclado a una PC.
+- [ ] D. Escuchar diversas estaciones de radio.
+
+### PREGUNTA 5
+
+¿Cuál es otro término para el puerto de Internet de un router inalámbrico?
+
+- [ ] A. Puerto de switch
+- [ ] B. Puerto local
+- [ ] C. Puerto WAN
+- [ ] D. Puerto LAN
+
+### PREGUNTA 6
+
+¿Qué tipo de cable de red consta de 4 pares de cables trenzados?
+
+- [ ] A. Fibra óptica
+- [ ] B. Ethernet sobre línea eléctrica
+- [ ] C. Coaxial
+- [ ] D. Categoría 5e
+
+### PREGUNTA 7
+
+¿Cuál es la configuración de transmisión de SSID predeterminada en un enrutador inalámbrico?
+
+- [ ] A. Disabled
+- [ ] B. Auto
+- [ ] C. Desactivado
+- [ ] D. Enabled
+
+### PREGUNTA 8
+
+¿Cuál es una característica del SSID de la red?
+
+- [ ] A. Está encriptado de manera predeterminada.
+- [ ] B. Solo se requiere para el acceso de usuarios temporales.
+- [ ] C. Contiene exactamente 16 caracteres.
+- [ ] D. Debe respetar las mayúsculas y minúsculas.
+
+---
+
+# HOJA DE RESPUESTAS
+
+| Pregunta | Mi respuesta |
+|---|---|
+| 1 | |
+| 2 | |
+| 3 | |
+| 4 | |
+| 5 | |
+| 6 | |
+| 7 | |
+| 8 | |
+
+---
+
+# CISCO NETWORKING BASICS
+## MÓDULO 4 — CUESTIONARIO DE REFUERZO
+### Crear una Red Doméstica
+
+**Total:** 8 preguntas  
+**Puntaje máximo:** 8 puntos
+
+**Instrucciones:** Selecciona una respuesta por pregunta. No revises el solucionario hasta terminar.
+
+---
+
+### PREGUNTA 1
+
+¿Qué tipo de dispositivo se conecta comúnmente a los puertos del switch Ethernet en un enrutador inalámbrico doméstico?
+
+- [ ] A. Cable módem
+- [ ] B. Módem DSL
+- [ ] C. Antena inalámbrica
+- [ ] D. Dispositivo LAN
+
+### PREGUNTA 2
+
+¿Qué tipo de tecnología de red se usa para la comunicación de baja velocidad entre dispositivos periféricos?
+
+- [ ] A. Canales
+- [ ] B. 802.11
+- [ ] C. Ethernet
+- [ ] D. Bluetooth
+
+### PREGUNTA 3
+
+¿Qué se puede usar para permitir que los dispositivos móviles de los visitantes se conecten a una red inalámbrica y para restringir el acceso de esos dispositivos solo a Internet?
+
+- [ ] A. Encriptación
+- [ ] B. Filtrado de direcciones MAC
+- [ ] C. Autenticación
+- [ ] D. SSID de invitados
+
+### PREGUNTA 4
+
+¿Qué propósito tendría un usuario doméstico para implementar Wi-Fi?
+
+- [ ] A. Crear una red inalámbrica que pueda ser utilizada por otros dispositivos.
+- [ ] B. Conectar auriculares inalámbricos a un dispositivo móvil.
+- [ ] C. Conectar un teclado a una PC.
+- [ ] D. Escuchar diversas estaciones de radio.
+
+### PREGUNTA 5
+
+¿Cuál es otro término para el puerto de Internet de un router inalámbrico?
+
+- [ ] A. Puerto de switch
+- [ ] B. Puerto local
+- [ ] C. Puerto WAN
+- [ ] D. Puerto LAN
+
+### PREGUNTA 6
+
+¿Qué tipo de cable de red consta de 4 pares de cables trenzados?
+
+- [ ] A. Fibra óptica
+- [ ] B. Ethernet sobre línea eléctrica
+- [ ] C. Coaxial
+- [ ] D. Categoría 5e
+
+### PREGUNTA 7
+
+¿Cuál es la configuración de transmisión de SSID predeterminada en un enrutador inalámbrico?
+
+- [ ] A. Disabled
+- [ ] B. Auto
+- [ ] C. Desactivado
+- [ ] D. Enabled
+
+### PREGUNTA 8
+
+¿Cuál es una característica del SSID de la red?
+
+- [ ] A. Está encriptado de manera predeterminada.
+- [ ] B. Solo se requiere para el acceso de usuarios temporales.
+- [ ] C. Contiene exactamente 16 caracteres.
+- [ ] D. Debe respetar las mayúsculas y minúsculas.
+
+---
+
+# HOJA DE RESPUESTAS
+
+| Pregunta | Mi respuesta |
+|---|---|
+| 1 | |
+| 2 | |
+| 3 | |
+| 4 | |
+| 5 | |
+| 6 | |
+| 7 | |
+| 8 | |
+
+---
+
+# SOLUCIONARIO — NO REVISAR ANTES DE TERMINAR
+
+### Pregunta 1
+**Respuesta: D. Dispositivo LAN**
+
+Los puertos Ethernet del switch integrado permiten conectar dispositivos de la red local, como computadoras e impresoras.
+
+### Pregunta 2
+**Respuesta: D. Bluetooth**
+
+Bluetooth permite la comunicación inalámbrica de corto alcance entre periféricos como teclados, mouse y auriculares.
+
+### Pregunta 3
+**Respuesta: D. SSID de invitados**
+
+Una red de invitados puede proporcionar acceso a Internet sin permitir el acceso a los dispositivos internos, si el aislamiento está configurado correctamente.
+
+### Pregunta 4
+**Respuesta: A. Crear una red inalámbrica que pueda ser utilizada por otros dispositivos.**
+
+Wi-Fi permite conectar computadoras, celulares y otros dispositivos a una red local inalámbrica.
+
+### Pregunta 5
+**Respuesta: C. Puerto WAN**
+
+El puerto WAN o Internet permite conectar el router doméstico con una red externa, normalmente la del ISP.
+
+### Pregunta 6
+**Respuesta: D. Categoría 5e**
+
+El cable Cat 5e está compuesto por cuatro pares de conductores de cobre trenzados que ayudan a reducir las interferencias.
+
+### Pregunta 7
+**Respuesta: D. Enabled**
+
+En el material de Cisco, la difusión del SSID se encuentra activada de manera predeterminada.
+
+Enabled = Activado.  
+Disabled = Desactivado.
+
+### Pregunta 8
+**Respuesta: D. Debe respetar las mayúsculas y minúsculas.**
+
+El SSID distingue las letras mayúsculas de las minúsculas.
+
+Ejemplo:
+
+CASA_WIFI y casa_wifi son identificadores diferentes.
+
+---
+
+**PUNTAJE FINAL: ____ / 8**
