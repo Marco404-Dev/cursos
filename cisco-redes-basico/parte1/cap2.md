@@ -665,3 +665,98 @@ Muchos routers domésticos integran un switch Ethernet y un punto de acceso Wi-F
 - Función de un ISP.
 - Funcionamiento básico de cable, DSL, celular y satélite.
 - Diferencia entre conexión fija e inalámbrica.
+
+
+
+
+
+
+
+#######################################################################################
+
+
+# CISCO NETWORKING BASICS — MÓDULO 2
+## SIMULACRO DE REFUERZO
+
+**Instrucciones:** 10 preguntas. Selecciona la respuesta correcta. La pregunta 2 tiene dos respuestas.
+
+### Pregunta 1
+Una familia tiene un módem y desea conectar tres laptops y varios celulares. ¿Qué equipo debería instalar?
+- [ ] A. Switch sin funciones inalámbricas
+- [ ] B. Router inalámbrico integrado
+- [ ] C. Servidor de archivos
+- [ ] D. Computadora de escritorio
+
+### Pregunta 2
+¿Cuáles son dispositivos finales? (Elige dos)
+- [ ] A. Computadora portátil
+- [ ] B. Router
+- [ ] C. Impresora de red
+- [ ] D. Switch
+
+### Pregunta 3
+¿Qué tecnología proporciona Internet mediante la infraestructura de televisión por cable coaxial?
+- [ ] A. DSL
+- [ ] B. Red celular
+- [ ] C. Internet por cable
+- [ ] D. Dial-up
+
+### Pregunta 4
+¿Qué conexión utiliza líneas telefónicas de cobre para proporcionar banda ancha sin marcación por llamada?
+- [ ] A. DSL
+- [ ] B. Dial-up
+- [ ] C. Satélite
+- [ ] D. Red celular
+
+### Pregunta 5
+¿Qué conexión es adecuada para una tableta en movimiento con cobertura 4G/5G?
+- [ ] A. Acceso telefónico
+- [ ] B. Cable coaxial
+- [ ] C. Fibra Ethernet local
+- [ ] D. Datos móviles
+
+### Pregunta 6
+¿Qué conexión puede servir a una estación aislada sin redes terrestres?
+- [ ] A. DSL
+- [ ] B. Acceso por satélite
+- [ ] C. Cable módem
+- [ ] D. Dial-up
+
+### Pregunta 7
+¿Qué modelo permite compartir una carpeta directamente entre PC sin servidor dedicado?
+- [ ] A. P2P
+- [ ] B. Servidor dedicado
+- [ ] C. Red troncal ISP
+- [ ] D. Acceso DSL
+
+### Pregunta 8
+¿Cuál es la función principal de un servidor?
+- [ ] A. Transportar señales por cobre
+- [ ] B. Proporcionar archivos solicitados por otros hosts
+- [ ] C. Conectar cables físicamente
+- [ ] D. Emitir ondas de radio como medio
+
+### Pregunta 9
+Un switch que conecta PC dentro de una LAN es un dispositivo intermedio.
+- [ ] A. Verdadero
+- [ ] B. Falso
+
+### Pregunta 10
+Una impresora conectada a una PC y compartida con otras requiere obligatoriamente un servidor dedicado independiente.
+- [ ] A. Verdadero
+- [ ] B. Falso
+
+---
+## SOLUCIONARIO
+1. B — Router inalámbrico integrado.
+2. A y C — Laptop e impresora de red.
+3. C — Internet por cable.
+4. A — DSL.
+5. D — Datos móviles.
+6. B — Acceso satelital.
+7. A — P2P.
+8. B — Proporcionar archivos y servicios.
+9. A — Verdadero.
+10. B — Falso.
+
+**PUNTAJE: ____ / 10**
