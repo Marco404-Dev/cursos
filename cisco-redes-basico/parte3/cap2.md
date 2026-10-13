@@ -1,4 +1,41 @@
 
+# Resumen de direcciones IPv4 — Cisco
+
+## 1. IP privadas
+Se utilizan en casas, escuelas y empresas. Pueden repetirse en redes diferentes.
+
+| Rango | Tipo |
+|---|---|
+| 10.0.0.0 – 10.255.255.255 | Privada |
+| 172.16.0.0 – 172.31.255.255 | Privada |
+| 192.168.0.0 – 192.168.255.255 | Privada |
+
+## 2. IP especiales
+
+| Rango | Tipo | Función |
+|---|---|---|
+| 169.254.x.x | APIPA | Asigna una IP local si falla DHCP. |
+| 127.x.x.x | Loopback | Prueba el propio equipo. |
+| 224.0.0.0 – 239.255.255.255 | Multicast | Envía datos a un grupo. |
+| 240.0.0.0 – 255.255.255.255 | Reservadas/especiales | Usos especiales de IPv4. |
+| 255.255.255.255 | Broadcast | Envía a todos en la red local. |
+
+## 3. IP públicas
+- Ejemplos: 8.8.8.8 y 1.1.1.1.
+- Son globalmente únicas en Internet.
+- Permiten comunicación por Internet.
+- No todas las IP que están fuera de los rangos privados son públicas.
+
+## 4. Conceptos clave
+- DHCP: asigna IP automáticamente desde un servidor.
+- APIPA: asigna IP local cuando falla DHCP.
+- NAT: traduce direcciones privadas y públicas.
+- PAT: permite compartir una IP pública entre varias PC.
+- IANA: coordina la distribución mundial de direcciones IP.
+- IPv6: solución a largo plazo al agotamiento de IPv4.
+
+
+
 # CISCO NETWORKING BASICS
 ## MÓDULO 9 — IPv4 Y SEGMENTACIÓN DE REDES
 
