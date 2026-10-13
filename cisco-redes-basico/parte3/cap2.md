@@ -1,38 +1,117 @@
 
-# Resumen de direcciones IPv4 — Cisco
+# README — Direcciones IPv4 | Cisco Networking Basics
 
-## 1. IP privadas
-Se utilizan en casas, escuelas y empresas. Pueden repetirse en redes diferentes.
+## 1. Direcciones IPv4 privadas
 
-| Rango | Tipo |
+Se utilizan dentro de casas, universidades y empresas.
+Pueden repetirse en redes independientes.
+
+| Rango | Prefijo |
 |---|---|
-| 10.0.0.0 – 10.255.255.255 | Privada |
-| 172.16.0.0 – 172.31.255.255 | Privada |
-| 192.168.0.0 – 192.168.255.255 | Privada |
+| 10.0.0.0 – 10.255.255.255 | /8 |
+| 172.16.0.0 – 172.31.255.255 | /12 |
+| 192.168.0.0 – 192.168.255.255 | /16 |
 
-## 2. IP especiales
+- No son enrutables directamente por Internet.
+- Normalmente utilizan NAT/PAT para acceder a Internet.
 
-| Rango | Tipo | Función |
+## 2. Direcciones IPv4 públicas
+
+Se utilizan para la comunicación global por Internet.
+
+- Deben ser globalmente únicas en el enrutamiento normal.
+- Son limitadas y las asignan los proveedores de Internet.
+- Ejemplos: 8.8.8.8, 1.1.1.1 y 209.165.201.30.
+- No existe un solo rango continuo de IP públicas.
+
+## 3. Direcciones IPv4 especiales
+
+No se consideran direcciones públicas de uso normal.
+
+| Tipo | Rango | Función |
 |---|---|---|
-| 169.254.x.x | APIPA | Asigna una IP local si falla DHCP. |
-| 127.x.x.x | Loopback | Prueba el propio equipo. |
-| 224.0.0.0 – 239.255.255.255 | Multicast | Envía datos a un grupo. |
-| 240.0.0.0 – 255.255.255.255 | Reservadas/especiales | Usos especiales de IPv4. |
-| 255.255.255.255 | Broadcast | Envía a todos en la red local. |
+| APIPA (enlace local) | 169.254.0.0/16 | IP automática cuando falla DHCP. |
+| Loopback | 127.0.0.0/8 | Comunicación con el propio equipo. |
+| Multicast (Clase D) | 224.0.0.0 – 239.255.255.255 | Enviar datos a un grupo. |
+| Experimental (Clase E) | 240.0.0.0 – 255.255.255.254 | Direcciones reservadas o experimentales. |
+| Broadcast limitado | 255.255.255.255 | Enviar datos a todos en el enlace local. |
+| Dirección no especificada | 0.0.0.0 | Se usa cuando todavía no se tiene una IP, entre otros casos. |
 
-## 3. IP públicas
-- Ejemplos: 8.8.8.8 y 1.1.1.1.
-- Son globalmente únicas en Internet.
-- Permiten comunicación por Internet.
-- No todas las IP que están fuera de los rangos privados son públicas.
+### Ejemplos para el examen
 
-## 4. Conceptos clave
-- DHCP: asigna IP automáticamente desde un servidor.
-- APIPA: asigna IP local cuando falla DHCP.
-- NAT: traduce direcciones privadas y públicas.
-- PAT: permite compartir una IP pública entre varias PC.
-- IANA: coordina la distribución mundial de direcciones IP.
-- IPv6: solución a largo plazo al agotamiento de IPv4.
+- 192.168.1.10 → Privada.
+- 172.20.1.5 → Privada.
+- 10.10.10.10 → Privada.
+- 8.8.8.8 → Pública.
+- 169.254.1.5 → APIPA.
+- 127.0.0.1 → Loopback.
+- 224.0.0.5 → Multicast.
+- 240.2.6.255 → Experimental.
+- 255.255.255.255 → Broadcast limitado.
+
+## 4. Conceptos importantes
+
+| Concepto | Función |
+|---|---|
+| DHCP | Un servidor asigna automáticamente IP y otros parámetros. |
+| APIPA | El propio equipo obtiene una IP local si no consigue una por DHCP. |
+| NAT | Traduce direcciones IP entre redes. |
+| PAT | Permite compartir una IP pública mediante puertos. |
+| IANA | Coordina globalmente los recursos de direcciones IP. |
+| RIR | Gestiona direcciones IP por región; en Latinoamérica está LACNIC. |
+| ISP | Proveedor de servicios de Internet. |
+| IPv6 | Utiliza 128 bits y ofrece muchas más direcciones que IPv4. |
+
+## 5. ¿Por qué utilizamos direcciones privadas?
+
+Ejemplo: una escuela tiene 100 computadoras.
+
+- Cada computadora puede tener una IP privada diferente.
+- Todas pueden compartir una IP pública mediante PAT.
+- Así se ahorran direcciones IPv4 públicas.
+
+Además, dos escuelas independientes pueden utilizar
+la misma IP privada, por ejemplo 192.168.1.10.
+
+## 6. ¿Cómo funciona NAT/PAT?
+
+1. PC: 192.168.1.10 (privada).
+2. Router: traduce la dirección de origen a una IP pública.
+3. Internet: recibe la solicitud.
+4. Router: entrega la respuesta a la PC correspondiente.
+
+La IP privada de la computadora no cambia.
+
+## 7. ¿Quién distribuye las direcciones IP?
+
+IANA → RIR → ISP → Clientes
+
+- IANA: coordinación mundial.
+- RIR: distribución regional.
+- ISP: asignación a clientes.
+- Clientes: casas, universidades y empresas.
+
+## 8. Reglas para memorizar — Examen Cisco
+
+- 10.x.x.x → Privada.
+- 172.16.x.x a 172.31.x.x → Privada.
+- 192.168.x.x → Privada.
+- 169.254.x.x → APIPA.
+- 127.x.x.x → Loopback.
+- 224–239 → Multicast.
+- 240–255 → Clase E, reservada y especial.
+- 255.255.255.255 → Broadcast limitado.
+
+IMPORTANTE:
+- Una IP privada puede repetirse en redes distintas.
+- Una IP pública normalmente debe ser globalmente única.
+- Una dirección experimental NO es una IP pública normal.
+- APIPA y Loopback tampoco son IP públicas.
+- No todas las direcciones fuera de los rangos privados son públicas.
+- IPv4 utiliza 32 bits; IPv6 utiliza 128 bits.
+
+
+
 
 
 
