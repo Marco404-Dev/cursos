@@ -211,98 +211,177 @@ PC → Switch de acceso → Switch de distribución → Núcleo → Red del serv
 
 ---
 
-# 10 preguntas de repaso
 
-### 1. ¿Cuáles son las cuatro características principales de una red confiable?
+
+# 10 preguntas de repaso — Módulo 1
+
+### 1. ¿Cuáles son las cuatro características de una red confiable?
+
+A) Velocidad, conexión, almacenamiento y transmisión.  
+B) Tolerancia a fallas, escalabilidad, QoS y seguridad.  
+C) Direccionamiento, enrutamiento, difusión y conexión.  
+D) Ancho de banda, latencia, velocidad y cobertura.
 
 <details>
 <summary>Ver respuesta</summary>
 
-Tolerancia a fallas, escalabilidad, calidad de servicio (QoS) y seguridad.
+✅ **B) Tolerancia a fallas, escalabilidad, QoS y seguridad.**
+
+Son las cuatro características fundamentales de una arquitectura de red confiable.
 
 </details>
 
-### 2. ¿Qué significa redundancia en una red?
+### 2. ¿Qué permite la redundancia en una red?
+
+A) Aumentar automáticamente el ancho de banda.  
+B) Eliminar todas las fallas de los dispositivos.  
+C) Utilizar rutas alternativas cuando falla una conexión.  
+D) Asignar direcciones IP automáticamente.
 
 <details>
 <summary>Ver respuesta</summary>
 
-Disponer de rutas o recursos alternativos para mantener la comunicación cuando ocurre una falla.
+✅ **C) Utilizar rutas alternativas cuando falla una conexión.**
+
+La redundancia proporciona caminos adicionales para mantener la comunicación.
 
 </details>
 
-### 3. ¿Qué es la conmutación de paquetes?
+### 3. ¿Qué caracteriza a la conmutación de paquetes?
+
+A) Toda la información debe viajar por una única ruta.  
+B) Solo permite transmitir datos dentro de una LAN.  
+C) Los mensajes se transmiten sin dividirse.  
+D) La información se divide en paquetes que pueden recorrer diferentes rutas.
 
 <details>
 <summary>Ver respuesta</summary>
 
-Es un método de comunicación que divide la información en paquetes que pueden viajar por diferentes rutas hasta llegar al destino.
+✅ **D) La información se divide en paquetes que pueden recorrer diferentes rutas.**
+
+Los routers pueden seleccionar rutas según las condiciones de la red.
 
 </details>
 
 ### 4. ¿Qué significa que una red sea escalable?
 
+A) Que puede incorporar nuevos usuarios sin afectar significativamente el rendimiento.  
+B) Que siempre utiliza conexiones inalámbricas.  
+C) Que impide agregar nuevos dispositivos.  
+D) Que funciona únicamente con routers Cisco.
+
 <details>
 <summary>Ver respuesta</summary>
 
-Que puede incorporar nuevos usuarios, dispositivos y aplicaciones sin afectar significativamente el rendimiento existente.
+✅ **A) Que puede incorporar nuevos usuarios sin afectar significativamente el rendimiento.**
+
+La escalabilidad permite que una red crezca sin perjudicar los servicios existentes.
 
 </details>
 
 ### 5. ¿Cuál es la función principal de QoS?
 
+A) Proporcionar direcciones MAC a los dispositivos.  
+B) Aumentar físicamente la velocidad del cable.  
+C) Priorizar determinados tipos de tráfico cuando existe congestión.  
+D) Bloquear todas las conexiones externas.
+
 <details>
 <summary>Ver respuesta</summary>
 
-Administrar y priorizar el tráfico de la red, especialmente cuando existe congestión.
+✅ **C) Priorizar determinados tipos de tráfico cuando existe congestión.**
+
+Por ejemplo, QoS puede priorizar una videollamada frente a una descarga de archivos.
 
 </details>
 
-### 6. ¿Cuáles son los tres principios de seguridad de la información?
+### 6. ¿Cuáles son los tres principios fundamentales de seguridad de la información?
+
+A) Control, identificación y autenticación.  
+B) Confidencialidad, integridad y disponibilidad.  
+C) Conectividad, Internet y administración.  
+D) Cifrado, velocidad y redundancia.
 
 <details>
 <summary>Ver respuesta</summary>
 
-Confidencialidad, integridad y disponibilidad (CIA).
+✅ **B) Confidencialidad, integridad y disponibilidad.**
+
+Se conocen como la tríada CIA:
+
+- Confidencialidad: acceso solo para usuarios autorizados.
+- Integridad: protección contra modificaciones no autorizadas.
+- Disponibilidad: acceso oportuno a los servicios.
 
 </details>
 
-### 7. ¿Cuál es la diferencia entre una dirección MAC y una dirección IP?
+### 7. ¿Cuál es la diferencia principal entre una dirección MAC y una IP?
+
+A) Ambas identifican exclusivamente redes externas.  
+B) La dirección MAC es utilizada únicamente por los routers.  
+C) La dirección IP es física y la MAC es lógica.  
+D) La dirección MAC identifica una interfaz en la capa 2 y la IP proporciona direccionamiento lógico en la capa 3.
 
 <details>
 <summary>Ver respuesta</summary>
 
-La MAC identifica una interfaz de red a nivel de enlace, mientras que la IP es una dirección lógica utilizada para el direccionamiento y enrutamiento.
+✅ **D) La dirección MAC identifica una interfaz en la capa 2 y la IP proporciona direccionamiento lógico en la capa 3.**
+
+La dirección MAC se utiliza en la comunicación del enlace local, mientras que la IP permite el direccionamiento entre redes.
 
 </details>
 
-### 8. ¿Por qué es recomendable dividir una red Ethernet grande?
+### 8. ¿Por qué es recomendable dividir una red Ethernet grande en redes más pequeñas?
+
+A) Para facilitar la administración y reducir los dominios de difusión mediante una segmentación adecuada.  
+B) Para que todos los dispositivos tengan la misma dirección IP.  
+C) Para eliminar la necesidad de switches.  
+D) Para impedir la comunicación entre computadoras.
 
 <details>
 <summary>Ver respuesta</summary>
 
-Para reducir los dominios de difusión cuando se realiza una segmentación adecuada, facilitar la administración y mejorar la escalabilidad.
+✅ **A) Para facilitar la administración y reducir los dominios de difusión mediante una segmentación adecuada.**
+
+Una segmentación apropiada evita que el tráfico broadcast llegue innecesariamente a todos los dispositivos de una red muy grande.
 
 </details>
 
-### 9. ¿Cuáles son las tres capas de un diseño de red jerárquico?
+### 9. ¿Cuáles son las tres capas del modelo de diseño jerárquico de Cisco?
+
+A) Física, enlace de datos y red.  
+B) Aplicación, transporte y sesión.  
+C) Acceso, distribución y núcleo.  
+D) LAN, MAN y WAN.
 
 <details>
 <summary>Ver respuesta</summary>
 
-Acceso, distribución y núcleo.
+✅ **C) Acceso, distribución y núcleo.**
+
+- Acceso: conecta dispositivos finales.
+- Distribución: conecta redes y administra el tráfico.
+- Núcleo: transporta grandes cantidades de datos a alta velocidad.
 
 </details>
 
-### 10. ¿Qué capa del modelo jerárquico se encarga principalmente de transportar grandes cantidades de datos a alta velocidad?
+### 10. ¿Qué capa del modelo jerárquico está diseñada principalmente para transportar grandes cantidades de datos a alta velocidad?
+
+A) Capa de acceso.  
+B) Capa de núcleo.  
+C) Capa de aplicación.  
+D) Capa de distribución.
 
 <details>
 <summary>Ver respuesta</summary>
 
-La capa de núcleo (Core Layer).
+✅ **B) Capa de núcleo.**
+
+La capa de núcleo proporciona conexiones de alta velocidad y redundancia para transportar información entre diferentes partes de la red.
 
 </details>
 
 ---
 
-**Fin del Módulo 1 — Diseño de Redes**
+**Fin del cuestionario — Módulo 1**
+
